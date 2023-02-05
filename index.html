@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/667417c7ec.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            height: 100vh;
+            background-image: url('6 copy.jpg');
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        .mob-tab {
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            background-color: rgb(221, 212, 212);
+            align-items: center;
+        }
+        .tabs{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            list-style-type: none;
+        }
+        .tabs a{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mob-tab">
+        <!-- for mobile type tabs -->
+        <ul class="tabs">
+            <li class="tab-items"><a href=""><i class="fas fa-home"></i><p>Home</p></a></li>
+            <li class="tab-items"><a href=""><i class="fas fa-book"></i><p>Docs</p></a></li>
+            <li class="tab-items"><a href=""><i class="fas fa-users"></i><p>About</p></a></li>
+            <li class="tab-items"><a href=""><i class="far fa-address-book"></i><p>Contact</p></a></li>
+        </ul>
+    </div>
+
+    <div class="body">
+        <!-- <img src="6 copy.jpg" alt=""> -->
+    </div>
+</body>
+
+</html>
